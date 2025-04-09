@@ -30,5 +30,4 @@ export function activate(context: vscode.ExtensionContext) {
   vscode.commands.executeCommand('vim.customTextObjects.add', object);
 }
 
-// This method is called when your extension is deactivated
 export function deactivate() {}
